@@ -2,3 +2,26 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+run while using is set to true
+create variable user location x to 0 and y to 0
+create variable max x to 10
+create variable min x to 0
+create variable max y to 10
+create variable min y to 0
+ask user input north south east or west or ask for user location or say exit
+for location print variable user location
+for input north 
+	if user location is less than 11 and greeater than 0 for x and y
+		add 1 to user location y 
+for input south
+	if user location is less than 11 and greeater than 0 for x and y
+		subtract 1 from user location y 
+for input east
+	if user location is less than 11 and greeater than 0 for x and y
+		add 1 to user location x
+for input west
+	if user location is less than 11 and greeater than 0 for x and y
+		subtract 1 from user location x
+else
+	print out of bounds
+if user input is "exit" set using to false

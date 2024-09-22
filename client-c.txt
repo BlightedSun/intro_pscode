@@ -2,3 +2,19 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+variable products set to 0
+variable max set to 50
+scan set to false
+variable input empty
+listen for user input "scan" or "new case" or "product number"
+if user input is scan
+	set scan to true
+	if max is less than 50 and scan is true
+		add 2 to products variable then set scan to false
+	if max is 50 and scan is true
+		print "need new case" then set scan to false
+if input is new case
+	set products variable to 0
+if input is product number
+	print products variable
+

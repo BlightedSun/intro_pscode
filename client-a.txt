@@ -2,3 +2,15 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+set playing to true
+run while playing is true
+set variable chances to 3
+while chances are greater than 0
+	create a variable random number between 1 and 10
+	ask player for a valid number input between 1 and 10 and set as variable
+	if player input equals random number variable print "you win" then set playing to false
+		else if chances are greater than zero and random number does not match player input print "guess again" then reassign player input variable to the new guess
+		else no chances left, print "sorry, try again next time" then set playing to false
+			
+	
+	
